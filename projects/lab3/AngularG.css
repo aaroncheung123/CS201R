@@ -1,0 +1,26 @@
+.User-list {
+  list-style: none;
+}
+
+.Avatar {
+  text-align: center;  
+}
+
+.Avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.Avatar h4 {
+  text-transform: capitalize;
+  color: red;
+}
+body{
+        text-align: center;
+        background-image: url("http://newallpaper.net/wp-content/uploads/2015/04/rain-wallpaper-2-wallpapers-1920x1080.jpg");
+        background-size: 1300px 800px;
+        font-family:lucida console;
+        text-shadow: 0px 2px 3px #555;
+      }
+
