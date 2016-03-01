@@ -1,0 +1,116 @@
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+    $(document).ready(function (){
+            $("#cityfield").keyup(function(){
+                var url= "https://students.cs.byu.edu/~clement/CS360/ajax/getcity.cgi?q=" + $("#cityfield").val();
+                $.getJSON(url,function(data) { 
+                var everything;
+                everything = "<ul>";
+                $.each(data, function(i,item) { //i is index and item is element
+                everything += "<li> "+data[i].city;
+                });
+        everything += "</ul>";
+        $("#txtHint").html(everything);
+      });
+    });
+    })
+    </script>
+
+    <script>
+    function findweather()
+    {
+        //console.log("Heyyyy!");
+        var myCity = $("#cityfield").val();
+        $("#dispcity").html(myCity);
+        var myurl= "https://api.wunderground.com/api/c6a5a53ebf01c754/geolookup/conditions/q/UT/";
+        console.log($("#cityfield").val());
+        myurl += $("#cityfield").val();
+        myurl += ".json";
+        console.log(myurl);
+        $.ajax({
+          url : myurl, dataType : "jsonp",
+          success : function(parsed_json) {
+            var location = parsed_json['location']['city'];
+            var temp_string = parsed_json['current_observation']['temperature_string'];
+            var current_weather = parsed_json['current_observation']['weather'];
+            var everything;
+            everything = "<ul>";
+            everything += "<li>Location: "+location;
+            everything += "<li>Temperature: "+temp_string;
+            everything += "<li>Weather: "+current_weather;
+            everything += "</ul>";
+            $("#weather").html(everything);
+          }
+        });
+    }
+    </script>
+    
+    
+     <style>
+      body{
+        text-align: center;
+        background-image: url("http://newallpaper.net/wp-content/uploads/2015/04/rain-wallpaper-2-wallpapers-1920x1080.jpg");
+        background-size: 1300px 800px;
+        font-family:lucida console;
+        text-shadow: 0px 2px 3px #555;
+      }
+       h1{
+        font-size:100px;
+      }
+      input{
+         border:4px solid #456879;
+	       border-radius:10px;
+	       height: 22px;
+         width: 230px;
+      }
+      textarea{
+        border:4px solid #456879;
+	       border-radius:10px;
+	       height: 22px;
+         width: 230px;
+      }
+      #x{
+        position:absolute;
+        left:320px;
+        top:200px;
+        color: #FFF1AD;
+      }
+      #y{
+        position:absolute;
+        left:650px;
+        color: #FFF1AD;
+      }
+      #button{
+        font-family:lucida console;
+        background: white;
+        width:80px;
+      }
+      #dispcity{
+        font-family:lucida console;
+      }
+     
+     </style>
+	</head>
+
+<body>
+  <h1 id="title"> Weather App</h1>
+
+  <div id="x">
+    <h3> Enter A City</h3>
+    <form type="button"><input type="text" id="cityfield" value="" ><br>
+      Suggestion: <span id="txtHint">Empty</span>
+      <input id="button" type="submit" value="Submit" onclick="findweather(); return false">
+    </form>
+  </div>
+
+  <div id="y">
+    <p>City</p>
+    <textarea id="dispcity">No City</textarea>
+    <p>Current Weather</p>
+    <div id="weather">No weather</div>
+  </div> 
+   
+    
+</body>
+</html>  

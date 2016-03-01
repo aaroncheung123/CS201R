@@ -1,0 +1,1221 @@
+nohup: ignoring input
+[0mGET / [36m304 [0m8.570 ms - -[0m
+In getcity route
+/^/
+Alpine
+Altamont
+Alton
+Altonah
+American Fork
+Aneth
+Annabella
+Antimony
+Aurora
+Axtell
+Bear River City
+Beaver
+Beryl
+Bicknell
+Bingham Canyon
+Blanding
+Bluebell
+Bluff
+Bonanza
+Boulder
+Bountiful
+Brian Head
+Brigham City
+Bryce
+Bryce Canyon
+Cache Junction
+Cannonville
+Castle Dale
+Cedar City
+Cedar Valley
+Centerfield
+Centerville
+Central
+Chester
+Circleville
+Cisco
+Clarkston
+Clawson
+Clearfield
+Cleveland
+Clinton
+Coalville
+Collinston
+Corinne
+Cornish
+Croydon
+Dammeron Valley
+Delta
+Deweyville
+Draper
+Duchesne
+Duck Creek Village
+Dugway
+Dutch John
+East Carbon
+Echo
+Eden
+Elberta
+Elmo
+Elsinore
+Emery
+Enterprise
+Ephraim
+Escalante
+Eureka
+Fairview
+Farmington
+Fayette
+Ferron
+Fielding
+Fillmore
+Fort Duchesne
+Fountain Green
+Fruitland
+Garden City
+Garland
+Garrison
+Glendale
+Glenwood
+Goshen
+Grantsville
+Green River
+Greenville
+Greenwich
+Grouse Creek
+Gunlock
+Gunnison
+Gusher
+Hanksville
+Hanna
+Hatch
+Heber City
+Helper
+Henefer
+Henrieville
+Hiawatha
+Hildale
+Hill AFB
+Hinckley
+Holden
+Honeyville
+Hooper
+Howell
+Huntington
+Huntsville
+Hurricane
+Hyde Park
+Hyrum
+Ibapah
+Ivins
+Jensen
+Joseph
+Junction
+Kamas
+Kanab
+Kanarraville
+Kanosh
+Kaysville
+Kenilworth
+Kingston
+Koosharem
+La Sal
+La Verkin
+Lake Powell
+Laketown
+Lapoint
+Layton
+Leamington
+Leeds
+Lehi
+Levan
+Lewiston
+Lindon
+Loa
+Logan
+Lyman
+Lynndyl
+Magna
+Manila
+Manti
+Mantua
+Mapleton
+Marysvale
+Mayfield
+Meadow
+Mendon
+Mexican Hat
+Midvale
+Midway
+Milford
+Millville
+Minersville
+Moab
+Modena
+Mona
+Monroe
+Montezuma Creek
+Monticello
+Morgan
+Moroni
+Mount Carmel
+Mount Pleasant
+Mountain Home
+Myton
+Neola
+Nephi
+New Harmony
+Newcastle
+Newton
+North Salt Lake
+Oak City
+Oakley
+Oasis
+Ogden
+Orangeville
+Orderville
+Orem
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+Randlett
+Randolph
+Redmond
+Richfield
+Richmond
+Riverside
+Riverton
+Rockville
+Roosevelt
+Roy
+Rush Valley
+Saint George
+Salem
+Salina
+Salt Lake City
+Sandy
+Santa Clara
+Santaquin
+Scipio
+Sevier
+Sigurd
+Smithfield
+Snowville
+South Jordan
+South Willard
+Spanish Fork
+Spring City
+Springdale
+Springville
+Sterling
+Stockton
+Summit
+Sunnyside
+Syracuse
+Tabiona
+Talmage
+Teasdale
+Thompson
+Tooele
+Toquerville
+Torrey
+Tremonton
+Trenton
+Tridell
+Tropic
+Vernal
+Vernon
+Veyo
+Virgin
+Wales
+Wallsburg
+Washington
+Wellington
+Wellsville
+Wendover
+West Jordan
+Whiterocks
+Willard
+Woodruff
+Woods Cross
+
+[ { city: 'Alpine' },
+  { city: 'Altamont' },
+  { city: 'Alton' },
+  { city: 'Altonah' },
+  { city: 'American Fork' },
+  { city: 'Aneth' },
+  { city: 'Annabella' },
+  { city: 'Antimony' },
+  { city: 'Aurora' },
+  { city: 'Axtell' },
+  { city: 'Bear River City' },
+  { city: 'Beaver' },
+  { city: 'Beryl' },
+  { city: 'Bicknell' },
+  { city: 'Bingham Canyon' },
+  { city: 'Blanding' },
+  { city: 'Bluebell' },
+  { city: 'Bluff' },
+  { city: 'Bonanza' },
+  { city: 'Boulder' },
+  { city: 'Bountiful' },
+  { city: 'Brian Head' },
+  { city: 'Brigham City' },
+  { city: 'Bryce' },
+  { city: 'Bryce Canyon' },
+  { city: 'Cache Junction' },
+  { city: 'Cannonville' },
+  { city: 'Castle Dale' },
+  { city: 'Cedar City' },
+  { city: 'Cedar Valley' },
+  { city: 'Centerfield' },
+  { city: 'Centerville' },
+  { city: 'Central' },
+  { city: 'Chester' },
+  { city: 'Circleville' },
+  { city: 'Cisco' },
+  { city: 'Clarkston' },
+  { city: 'Clawson' },
+  { city: 'Clearfield' },
+  { city: 'Cleveland' },
+  { city: 'Clinton' },
+  { city: 'Coalville' },
+  { city: 'Collinston' },
+  { city: 'Corinne' },
+  { city: 'Cornish' },
+  { city: 'Croydon' },
+  { city: 'Dammeron Valley' },
+  { city: 'Delta' },
+  { city: 'Deweyville' },
+  { city: 'Draper' },
+  { city: 'Duchesne' },
+  { city: 'Duck Creek Village' },
+  { city: 'Dugway' },
+  { city: 'Dutch John' },
+  { city: 'East Carbon' },
+  { city: 'Echo' },
+  { city: 'Eden' },
+  { city: 'Elberta' },
+  { city: 'Elmo' },
+  { city: 'Elsinore' },
+  { city: 'Emery' },
+  { city: 'Enterprise' },
+  { city: 'Ephraim' },
+  { city: 'Escalante' },
+  { city: 'Eureka' },
+  { city: 'Fairview' },
+  { city: 'Farmington' },
+  { city: 'Fayette' },
+  { city: 'Ferron' },
+  { city: 'Fielding' },
+  { city: 'Fillmore' },
+  { city: 'Fort Duchesne' },
+  { city: 'Fountain Green' },
+  { city: 'Fruitland' },
+  { city: 'Garden City' },
+  { city: 'Garland' },
+  { city: 'Garrison' },
+  { city: 'Glendale' },
+  { city: 'Glenwood' },
+  { city: 'Goshen' },
+  { city: 'Grantsville' },
+  { city: 'Green River' },
+  { city: 'Greenville' },
+  { city: 'Greenwich' },
+  { city: 'Grouse Creek' },
+  { city: 'Gunlock' },
+  { city: 'Gunnison' },
+  { city: 'Gusher' },
+  { city: 'Hanksville' },
+  { city: 'Hanna' },
+  { city: 'Hatch' },
+  { city: 'Heber City' },
+  { city: 'Helper' },
+  { city: 'Henefer' },
+  { city: 'Henrieville' },
+  { city: 'Hiawatha' },
+  { city: 'Hildale' },
+  { city: 'Hill AFB' },
+  { city: 'Hinckley' },
+  { city: 'Holden' },
+  { city: 'Honeyville' },
+  { city: 'Hooper' },
+  { city: 'Howell' },
+  { city: 'Huntington' },
+  { city: 'Huntsville' },
+  { city: 'Hurricane' },
+  { city: 'Hyde Park' },
+  { city: 'Hyrum' },
+  { city: 'Ibapah' },
+  { city: 'Ivins' },
+  { city: 'Jensen' },
+  { city: 'Joseph' },
+  { city: 'Junction' },
+  { city: 'Kamas' },
+  { city: 'Kanab' },
+  { city: 'Kanarraville' },
+  { city: 'Kanosh' },
+  { city: 'Kaysville' },
+  { city: 'Kenilworth' },
+  { city: 'Kingston' },
+  { city: 'Koosharem' },
+  { city: 'La Sal' },
+  { city: 'La Verkin' },
+  { city: 'Lake Powell' },
+  { city: 'Laketown' },
+  { city: 'Lapoint' },
+  { city: 'Layton' },
+  { city: 'Leamington' },
+  { city: 'Leeds' },
+  { city: 'Lehi' },
+  { city: 'Levan' },
+  { city: 'Lewiston' },
+  { city: 'Lindon' },
+  { city: 'Loa' },
+  { city: 'Logan' },
+  { city: 'Lyman' },
+  { city: 'Lynndyl' },
+  { city: 'Magna' },
+  { city: 'Manila' },
+  { city: 'Manti' },
+  { city: 'Mantua' },
+  { city: 'Mapleton' },
+  { city: 'Marysvale' },
+  { city: 'Mayfield' },
+  { city: 'Meadow' },
+  { city: 'Mendon' },
+  { city: 'Mexican Hat' },
+  { city: 'Midvale' },
+  { city: 'Midway' },
+  { city: 'Milford' },
+  { city: 'Millville' },
+  { city: 'Minersville' },
+  { city: 'Moab' },
+  { city: 'Modena' },
+  { city: 'Mona' },
+  { city: 'Monroe' },
+  { city: 'Montezuma Creek' },
+  { city: 'Monticello' },
+  { city: 'Morgan' },
+  { city: 'Moroni' },
+  { city: 'Mount Carmel' },
+  { city: 'Mount Pleasant' },
+  { city: 'Mountain Home' },
+  { city: 'Myton' },
+  { city: 'Neola' },
+  { city: 'Nephi' },
+  { city: 'New Harmony' },
+  { city: 'Newcastle' },
+  { city: 'Newton' },
+  { city: 'North Salt Lake' },
+  { city: 'Oak City' },
+  { city: 'Oakley' },
+  { city: 'Oasis' },
+  { city: 'Ogden' },
+  { city: 'Orangeville' },
+  { city: 'Orderville' },
+  { city: 'Orem' },
+  { city: 'Panguitch' },
+  { city: 'Paradise' },
+  { city: 'Paragonah' },
+  { city: 'Park City' },
+  { city: 'Park Valley' },
+  { city: 'Parowan' },
+  { city: 'Payson' },
+  { city: 'Peoa' },
+  { city: 'Pine Valley' },
+  { city: 'Pleasant Grove' },
+  { city: 'Plymouth' },
+  { city: 'Portage' },
+  { city: 'Price' },
+  { city: 'Providence' },
+  { city: 'Provo' },
+  { city: 'Randlett' },
+  { city: 'Randolph' },
+  { city: 'Redmond' },
+  { city: 'Richfield' },
+  { city: 'Richmond' },
+  { city: 'Riverside' },
+  { city: 'Riverton' },
+  { city: 'Rockville' },
+  { city: 'Roosevelt' },
+  { city: 'Roy' },
+  { city: 'Rush Valley' },
+  { city: 'Saint George' },
+  { city: 'Salem' },
+  { city: 'Salina' },
+  { city: 'Salt Lake City' },
+  { city: 'Sandy' },
+  { city: 'Santa Clara' },
+  { city: 'Santaquin' },
+  { city: 'Scipio' },
+  { city: 'Sevier' },
+  { city: 'Sigurd' },
+  { city: 'Smithfield' },
+  { city: 'Snowville' },
+  { city: 'South Jordan' },
+  { city: 'South Willard' },
+  { city: 'Spanish Fork' },
+  { city: 'Spring City' },
+  { city: 'Springdale' },
+  { city: 'Springville' },
+  { city: 'Sterling' },
+  { city: 'Stockton' },
+  { city: 'Summit' },
+  { city: 'Sunnyside' },
+  { city: 'Syracuse' },
+  { city: 'Tabiona' },
+  { city: 'Talmage' },
+  { city: 'Teasdale' },
+  { city: 'Thompson' },
+  { city: 'Tooele' },
+  { city: 'Toquerville' },
+  { city: 'Torrey' },
+  { city: 'Tremonton' },
+  { city: 'Trenton' },
+  { city: 'Tridell' },
+  { city: 'Tropic' },
+  { city: 'Vernal' },
+  { city: 'Vernon' },
+  { city: 'Veyo' },
+  { city: 'Virgin' },
+  { city: 'Wales' },
+  { city: 'Wallsburg' },
+  { city: 'Washington' },
+  { city: 'Wellington' },
+  { city: 'Wellsville' },
+  { city: 'Wendover' },
+  { city: 'West Jordan' },
+  { city: 'Whiterocks' },
+  { city: 'Willard' },
+  { city: 'Woodruff' },
+  { city: 'Woods Cross' },
+  { city: '' } ]
+[0mGET /getcity?q= [32m200 [0m35.518 ms - 5080[0m
+[0mGET /robots.txt [33m404 [0m7.621 ms - 1196[0m
+[0mGET /index.html [33m404 [0m1.655 ms - 1196[0m
+[0mPOST /cgi-bin/php?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E [33m404 [0m19.529 ms - 1196[0m
+[0mPOST /cgi-bin/php5?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E [33m404 [0m17.320 ms - 1196[0m
+[0mPOST /cgi-bin/php-cgi?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E [33m404 [0m17.163 ms - 1196[0m
+[0mPOST /cgi-bin/php.cgi?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E [33m404 [0m17.288 ms - 1196[0m
+[0mPOST /cgi-bin/php4?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E [33m404 [0m17.533 ms - 1196[0m
+[0mGET http://testp4.pospr.waw.pl/testproxy.php [33m404 [0m1.115 ms - 1196[0m
+[0mGET / [32m200 [0m3.035 ms - 3259[0m
+[0mHEAD / [32m200 [0m1.511 ms - 3259[0m
+[0mHEAD / [32m200 [0m0.508 ms - 3259[0m
+[0mHEAD / [32m200 [0m1.448 ms - 3259[0m
+[0mGET /manager/html [33m404 [0m1.312 ms - 1196[0m
+[0mPOST /loginAction!login.action [33m404 [0m1.190 ms - 1196[0m
+[0mPOST /register.do [33m404 [0m2.891 ms - 1196[0m
+[0mHEAD /admin [33m404 [0m0.935 ms - 1196[0m
+[0mGET http://testp2.czar.bielawa.pl/testproxy.php [33m404 [0m1.209 ms - 1196[0m
+[0mGET / [32m200 [0m1.363 ms - 3259[0m
+[0mGET /favicon.ico [33m404 [0m2.171 ms - 1196[0m
+[0mGET /test1.html [33m404 [0m2.478 ms - 1196[0m
+[0mHEAD /admin [33m404 [0m1.627 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/1phpmyadmin/ [33m404 [0m1.034 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/2phpmyadmin/ [33m404 [0m0.875 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/3phpmyadmin/ [33m404 [0m2.702 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/4phpmyadmin/ [33m404 [0m3.189 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/MyAdmin/ [33m404 [0m0.957 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/PMA/ [33m404 [0m0.964 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/PMA2011/ [33m404 [0m1.386 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/PMA2012/ [33m404 [0m1.854 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/PMA2013/ [33m404 [0m0.992 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/PMA2014/ [33m404 [0m1.827 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/PMA2015/ [33m404 [0m2.160 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/admin/ [33m404 [0m1.035 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/admin/db/ [33m404 [0m1.093 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/admin/pMA/ [33m404 [0m1.093 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/admin/phpMyAdmin/ [33m404 [0m5.015 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/admin/phpmyadmin/ [33m404 [0m1.106 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/admin/sqladmin/ [33m404 [0m1.077 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/admin/sysadmin/ [33m404 [0m2.049 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/admin/web/ [33m404 [0m1.628 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/administrator/PMA/ [33m404 [0m1.129 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/administrator/admin/ [33m404 [0m1.097 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/administrator/db/ [33m404 [0m1.439 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/administrator/phpMyAdmin/ [33m404 [0m1.078 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/administrator/phpmyadmin/ [33m404 [0m3.154 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/administrator/pma/ [33m404 [0m1.482 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/administrator/web/ [33m404 [0m1.309 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/database/ [33m404 [0m1.637 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/db/ [33m404 [0m3.217 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/db/db-admin/ [33m404 [0m1.341 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/db/dbadmin/ [33m404 [0m1.067 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/db/dbweb/ [33m404 [0m1.933 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/db/myadmin/ [33m404 [0m1.462 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/db/phpMyAdmin-3/ [33m404 [0m1.075 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/db/phpMyAdmin/ [33m404 [0m1.522 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/db/phpMyAdmin3/ [33m404 [0m1.974 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/db/phpmyadmin/ [33m404 [0m1.454 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/db/phpmyadmin3/ [33m404 [0m1.105 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/db/webadmin/ [33m404 [0m1.227 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/db/webdb/ [33m404 [0m1.106 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/db/websql/ [33m404 [0m2.883 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/dbadmin/ [33m404 [0m0.966 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/myadmin/ [33m404 [0m1.031 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/myadminphp/ [33m404 [0m1.313 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/mysql-admin/ [33m404 [0m1.079 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/mysql/ [33m404 [0m1.081 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/mysql/admin/ [33m404 [0m1.358 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/mysql/db/ [33m404 [0m1.078 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/mysql/dbadmin/ [33m404 [0m1.194 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/mysql/mysqlmanager/ [33m404 [0m1.065 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/mysql/pMA/ [33m404 [0m1.428 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/mysql/pma/ [33m404 [0m1.149 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/mysql/sqlmanager/ [33m404 [0m1.013 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/mysql/web/ [33m404 [0m1.025 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/mysqladmin/ [33m404 [0m1.934 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/mysqlmanager/ [33m404 [0m1.114 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/php-my-admin/ [33m404 [0m1.383 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/php-myadmin/ [33m404 [0m1.081 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/phpMyAdmin-2/ [33m404 [0m1.114 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/phpMyAdmin-3/ [33m404 [0m1.399 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/phpMyAdmin-4/ [33m404 [0m5.297 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/phpMyAdmin/ [33m404 [0m1.089 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/phpMyAdmin2/ [33m404 [0m1.112 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/phpMyAdmin3/ [33m404 [0m7.215 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/phpMyAdmin4/ [33m404 [0m2.119 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/phpMyadmin/ [33m404 [0m1.070 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/phpmanager/ [33m404 [0m1.928 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/phpmy-admin/ [33m404 [0m1.057 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/phpmy/ [33m404 [0m1.055 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/phpmyAdmin/ [33m404 [0m1.161 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/phpmyadmin/ [33m404 [0m1.104 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/phpmyadmin1/ [33m404 [0m1.758 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/phpmyadmin2/ [33m404 [0m1.130 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/phpmyadmin3/ [33m404 [0m0.980 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/phpmyadmin4/ [33m404 [0m1.126 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/phppma/ [33m404 [0m2.112 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/pma/ [33m404 [0m1.068 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/pma2011/ [33m404 [0m2.002 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/pma2012/ [33m404 [0m1.129 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/pma2013/ [33m404 [0m1.949 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/pma2014/ [33m404 [0m1.270 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/pma2015/ [33m404 [0m1.086 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/program/ [33m404 [0m0.944 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/shopdb/ [33m404 [0m1.119 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/sql/myadmin/ [33m404 [0m1.079 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/sql/php-myadmin/ [33m404 [0m1.040 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/sql/phpMyAdmin/ [33m404 [0m1.047 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/sql/phpMyAdmin2/ [33m404 [0m1.058 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/sql/phpMyAdmin3/ [33m404 [0m1.084 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/sql/phpMyAdmin4/ [33m404 [0m1.974 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/sql/phpmanager/ [33m404 [0m1.112 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/sql/phpmy-admin/ [33m404 [0m1.380 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/sql/phpmyadmin2/ [33m404 [0m1.010 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/sql/phpmyadmin3/ [33m404 [0m2.491 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/sql/phpmyadmin4/ [33m404 [0m2.009 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/sql/sql-admin/ [33m404 [0m0.916 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/sql/sql/ [33m404 [0m1.396 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/sql/sqladmin/ [33m404 [0m0.936 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/sql/sqlweb/ [33m404 [0m0.942 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/sql/webadmin/ [33m404 [0m1.661 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/sql/webdb/ [33m404 [0m2.270 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/sql/websql/ [33m404 [0m2.305 ms - 1196[0m
+[0mHEAD http://54.200.109.202:80/sqlmanager/ [33m404 [0m1.180 ms - 1196[0m
+[0mGET / [32m200 [0m2.408 ms - 3259[0m
+[0mGET http://testp3.pospr.waw.pl/testproxy.php [33m404 [0m1.077 ms - 1196[0m
+[0mGET http://testp5.mielno.lubin.pl/testproxy.php [33m404 [0m1.061 ms - 1196[0m
+[0mPOST /loginUI.action [33m404 [0m294.997 ms - 1196[0m
+[0mPOST /Main.action [33m404 [0m291.871 ms - 1196[0m
+[0mPOST /doLogin.do [33m404 [0m291.558 ms - 1196[0m
+[0mGET /manager/html [33m404 [0m5.161 ms - 1196[0m
+[0mGET / [32m200 [0m0.915 ms - 3259[0m
+[0mGET http://testp3.pospr.waw.pl/testproxy.php [33m404 [0m1.946 ms - 1196[0m
+[0mGET http://testp2.czar.bielawa.pl/testproxy.php [33m404 [0m1.000 ms - 1196[0m
+[0mPOST /login.do [33m404 [0m288.512 ms - 1196[0m
+[0mGET /muieblackcat [33m404 [0m2.376 ms - 1196[0m
+[0mGET //phpMyAdmin/scripts/setup.php [33m404 [0m1.170 ms - 1196[0m
+[0mGET //phpmyadmin/scripts/setup.php [33m404 [0m2.360 ms - 1196[0m
+[0mGET //pma/scripts/setup.php [33m404 [0m6.108 ms - 1196[0m
+[0mGET //myadmin/scripts/setup.php [33m404 [0m8.802 ms - 1196[0m
+[0mGET //MyAdmin/scripts/setup.php [33m404 [0m1.538 ms - 1196[0m
+[0mGET http://pastebin.com/raw.php?i=GNsjKYy5 [33m404 [0m2.538 ms - 1196[0m
+[0mPOST /index.login.action [33m404 [0m355.225 ms - 1196[0m
+[0mPOST /adminManager!login [33m404 [0m297.948 ms - 1196[0m
+[0mGET //wp-login.php [33m404 [0m4.161 ms - 1196[0m
+[0mGET /blog//wp-login.php [33m404 [0m0.965 ms - 1196[0m
+[0mGET /wordpress//wp-login.php [33m404 [0m1.070 ms - 1196[0m
+[0mGET /wp//wp-login.php [33m404 [0m0.974 ms - 1196[0m
+[0mGET /x [33m404 [0m0.989 ms - 1196[0m
+[0mPOST /jeecms.do [33m404 [0m288.155 ms - 1196[0m
+[0mPOST /login!check.do [33m404 [0m290.193 ms - 1196[0m
+[0mGET http://testp1.piwo.pila.pl/testproxy.php [33m404 [0m1.569 ms - 1196[0m
+[0mGET http://www.baidu.com/robots.txt [33m404 [0m5.975 ms - 1196[0m
+[0mGET http://testp1.piwo.pila.pl/testproxy.php [33m404 [0m1.146 ms - 1196[0m
+[0mGET / [32m200 [0m0.874 ms - 3259[0m
+[0mGET http://testp1.piwo.pila.pl/testproxy.php [33m404 [0m1.043 ms - 1196[0m
+[0mGET / [32m200 [0m0.711 ms - 3259[0m
+[0mGET /favicon.ico [33m404 [0m1.046 ms - 1196[0m
+In getcity route
+/^/
+Alpine
+Altamont
+Alton
+Altonah
+American Fork
+Aneth
+Annabella
+Antimony
+Aurora
+Axtell
+Bear River City
+Beaver
+Beryl
+Bicknell
+Bingham Canyon
+Blanding
+Bluebell
+Bluff
+Bonanza
+Boulder
+Bountiful
+Brian Head
+Brigham City
+Bryce
+Bryce Canyon
+Cache Junction
+Cannonville
+Castle Dale
+Cedar City
+Cedar Valley
+Centerfield
+Centerville
+Central
+Chester
+Circleville
+Cisco
+Clarkston
+Clawson
+Clearfield
+Cleveland
+Clinton
+Coalville
+Collinston
+Corinne
+Cornish
+Croydon
+Dammeron Valley
+Delta
+Deweyville
+Draper
+Duchesne
+Duck Creek Village
+Dugway
+Dutch John
+East Carbon
+Echo
+Eden
+Elberta
+Elmo
+Elsinore
+Emery
+Enterprise
+Ephraim
+Escalante
+Eureka
+Fairview
+Farmington
+Fayette
+Ferron
+Fielding
+Fillmore
+Fort Duchesne
+Fountain Green
+Fruitland
+Garden City
+Garland
+Garrison
+Glendale
+Glenwood
+Goshen
+Grantsville
+Green River
+Greenville
+Greenwich
+Grouse Creek
+Gunlock
+Gunnison
+Gusher
+Hanksville
+Hanna
+Hatch
+Heber City
+Helper
+Henefer
+Henrieville
+Hiawatha
+Hildale
+Hill AFB
+Hinckley
+Holden
+Honeyville
+Hooper
+Howell
+Huntington
+Huntsville
+Hurricane
+Hyde Park
+Hyrum
+Ibapah
+Ivins
+Jensen
+Joseph
+Junction
+Kamas
+Kanab
+Kanarraville
+Kanosh
+Kaysville
+Kenilworth
+Kingston
+Koosharem
+La Sal
+La Verkin
+Lake Powell
+Laketown
+Lapoint
+Layton
+Leamington
+Leeds
+Lehi
+Levan
+Lewiston
+Lindon
+Loa
+Logan
+Lyman
+Lynndyl
+Magna
+Manila
+Manti
+Mantua
+Mapleton
+Marysvale
+Mayfield
+Meadow
+Mendon
+Mexican Hat
+Midvale
+Midway
+Milford
+Millville
+Minersville
+Moab
+Modena
+Mona
+Monroe
+Montezuma Creek
+Monticello
+Morgan
+Moroni
+Mount Carmel
+Mount Pleasant
+Mountain Home
+Myton
+Neola
+Nephi
+New Harmony
+Newcastle
+Newton
+North Salt Lake
+Oak City
+Oakley
+Oasis
+Ogden
+Orangeville
+Orderville
+Orem
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+Randlett
+Randolph
+Redmond
+Richfield
+Richmond
+Riverside
+Riverton
+Rockville
+Roosevelt
+Roy
+Rush Valley
+Saint George
+Salem
+Salina
+Salt Lake City
+Sandy
+Santa Clara
+Santaquin
+Scipio
+Sevier
+Sigurd
+Smithfield
+Snowville
+South Jordan
+South Willard
+Spanish Fork
+Spring City
+Springdale
+Springville
+Sterling
+Stockton
+Summit
+Sunnyside
+Syracuse
+Tabiona
+Talmage
+Teasdale
+Thompson
+Tooele
+Toquerville
+Torrey
+Tremonton
+Trenton
+Tridell
+Tropic
+Vernal
+Vernon
+Veyo
+Virgin
+Wales
+Wallsburg
+Washington
+Wellington
+Wellsville
+Wendover
+West Jordan
+Whiterocks
+Willard
+Woodruff
+Woods Cross
+
+[ { city: 'Alpine' },
+  { city: 'Altamont' },
+  { city: 'Alton' },
+  { city: 'Altonah' },
+  { city: 'American Fork' },
+  { city: 'Aneth' },
+  { city: 'Annabella' },
+  { city: 'Antimony' },
+  { city: 'Aurora' },
+  { city: 'Axtell' },
+  { city: 'Bear River City' },
+  { city: 'Beaver' },
+  { city: 'Beryl' },
+  { city: 'Bicknell' },
+  { city: 'Bingham Canyon' },
+  { city: 'Blanding' },
+  { city: 'Bluebell' },
+  { city: 'Bluff' },
+  { city: 'Bonanza' },
+  { city: 'Boulder' },
+  { city: 'Bountiful' },
+  { city: 'Brian Head' },
+  { city: 'Brigham City' },
+  { city: 'Bryce' },
+  { city: 'Bryce Canyon' },
+  { city: 'Cache Junction' },
+  { city: 'Cannonville' },
+  { city: 'Castle Dale' },
+  { city: 'Cedar City' },
+  { city: 'Cedar Valley' },
+  { city: 'Centerfield' },
+  { city: 'Centerville' },
+  { city: 'Central' },
+  { city: 'Chester' },
+  { city: 'Circleville' },
+  { city: 'Cisco' },
+  { city: 'Clarkston' },
+  { city: 'Clawson' },
+  { city: 'Clearfield' },
+  { city: 'Cleveland' },
+  { city: 'Clinton' },
+  { city: 'Coalville' },
+  { city: 'Collinston' },
+  { city: 'Corinne' },
+  { city: 'Cornish' },
+  { city: 'Croydon' },
+  { city: 'Dammeron Valley' },
+  { city: 'Delta' },
+  { city: 'Deweyville' },
+  { city: 'Draper' },
+  { city: 'Duchesne' },
+  { city: 'Duck Creek Village' },
+  { city: 'Dugway' },
+  { city: 'Dutch John' },
+  { city: 'East Carbon' },
+  { city: 'Echo' },
+  { city: 'Eden' },
+  { city: 'Elberta' },
+  { city: 'Elmo' },
+  { city: 'Elsinore' },
+  { city: 'Emery' },
+  { city: 'Enterprise' },
+  { city: 'Ephraim' },
+  { city: 'Escalante' },
+  { city: 'Eureka' },
+  { city: 'Fairview' },
+  { city: 'Farmington' },
+  { city: 'Fayette' },
+  { city: 'Ferron' },
+  { city: 'Fielding' },
+  { city: 'Fillmore' },
+  { city: 'Fort Duchesne' },
+  { city: 'Fountain Green' },
+  { city: 'Fruitland' },
+  { city: 'Garden City' },
+  { city: 'Garland' },
+  { city: 'Garrison' },
+  { city: 'Glendale' },
+  { city: 'Glenwood' },
+  { city: 'Goshen' },
+  { city: 'Grantsville' },
+  { city: 'Green River' },
+  { city: 'Greenville' },
+  { city: 'Greenwich' },
+  { city: 'Grouse Creek' },
+  { city: 'Gunlock' },
+  { city: 'Gunnison' },
+  { city: 'Gusher' },
+  { city: 'Hanksville' },
+  { city: 'Hanna' },
+  { city: 'Hatch' },
+  { city: 'Heber City' },
+  { city: 'Helper' },
+  { city: 'Henefer' },
+  { city: 'Henrieville' },
+  { city: 'Hiawatha' },
+  { city: 'Hildale' },
+  { city: 'Hill AFB' },
+  { city: 'Hinckley' },
+  { city: 'Holden' },
+  { city: 'Honeyville' },
+  { city: 'Hooper' },
+  { city: 'Howell' },
+  { city: 'Huntington' },
+  { city: 'Huntsville' },
+  { city: 'Hurricane' },
+  { city: 'Hyde Park' },
+  { city: 'Hyrum' },
+  { city: 'Ibapah' },
+  { city: 'Ivins' },
+  { city: 'Jensen' },
+  { city: 'Joseph' },
+  { city: 'Junction' },
+  { city: 'Kamas' },
+  { city: 'Kanab' },
+  { city: 'Kanarraville' },
+  { city: 'Kanosh' },
+  { city: 'Kaysville' },
+  { city: 'Kenilworth' },
+  { city: 'Kingston' },
+  { city: 'Koosharem' },
+  { city: 'La Sal' },
+  { city: 'La Verkin' },
+  { city: 'Lake Powell' },
+  { city: 'Laketown' },
+  { city: 'Lapoint' },
+  { city: 'Layton' },
+  { city: 'Leamington' },
+  { city: 'Leeds' },
+  { city: 'Lehi' },
+  { city: 'Levan' },
+  { city: 'Lewiston' },
+  { city: 'Lindon' },
+  { city: 'Loa' },
+  { city: 'Logan' },
+  { city: 'Lyman' },
+  { city: 'Lynndyl' },
+  { city: 'Magna' },
+  { city: 'Manila' },
+  { city: 'Manti' },
+  { city: 'Mantua' },
+  { city: 'Mapleton' },
+  { city: 'Marysvale' },
+  { city: 'Mayfield' },
+  { city: 'Meadow' },
+  { city: 'Mendon' },
+  { city: 'Mexican Hat' },
+  { city: 'Midvale' },
+  { city: 'Midway' },
+  { city: 'Milford' },
+  { city: 'Millville' },
+  { city: 'Minersville' },
+  { city: 'Moab' },
+  { city: 'Modena' },
+  { city: 'Mona' },
+  { city: 'Monroe' },
+  { city: 'Montezuma Creek' },
+  { city: 'Monticello' },
+  { city: 'Morgan' },
+  { city: 'Moroni' },
+  { city: 'Mount Carmel' },
+  { city: 'Mount Pleasant' },
+  { city: 'Mountain Home' },
+  { city: 'Myton' },
+  { city: 'Neola' },
+  { city: 'Nephi' },
+  { city: 'New Harmony' },
+  { city: 'Newcastle' },
+  { city: 'Newton' },
+  { city: 'North Salt Lake' },
+  { city: 'Oak City' },
+  { city: 'Oakley' },
+  { city: 'Oasis' },
+  { city: 'Ogden' },
+  { city: 'Orangeville' },
+  { city: 'Orderville' },
+  { city: 'Orem' },
+  { city: 'Panguitch' },
+  { city: 'Paradise' },
+  { city: 'Paragonah' },
+  { city: 'Park City' },
+  { city: 'Park Valley' },
+  { city: 'Parowan' },
+  { city: 'Payson' },
+  { city: 'Peoa' },
+  { city: 'Pine Valley' },
+  { city: 'Pleasant Grove' },
+  { city: 'Plymouth' },
+  { city: 'Portage' },
+  { city: 'Price' },
+  { city: 'Providence' },
+  { city: 'Provo' },
+  { city: 'Randlett' },
+  { city: 'Randolph' },
+  { city: 'Redmond' },
+  { city: 'Richfield' },
+  { city: 'Richmond' },
+  { city: 'Riverside' },
+  { city: 'Riverton' },
+  { city: 'Rockville' },
+  { city: 'Roosevelt' },
+  { city: 'Roy' },
+  { city: 'Rush Valley' },
+  { city: 'Saint George' },
+  { city: 'Salem' },
+  { city: 'Salina' },
+  { city: 'Salt Lake City' },
+  { city: 'Sandy' },
+  { city: 'Santa Clara' },
+  { city: 'Santaquin' },
+  { city: 'Scipio' },
+  { city: 'Sevier' },
+  { city: 'Sigurd' },
+  { city: 'Smithfield' },
+  { city: 'Snowville' },
+  { city: 'South Jordan' },
+  { city: 'South Willard' },
+  { city: 'Spanish Fork' },
+  { city: 'Spring City' },
+  { city: 'Springdale' },
+  { city: 'Springville' },
+  { city: 'Sterling' },
+  { city: 'Stockton' },
+  { city: 'Summit' },
+  { city: 'Sunnyside' },
+  { city: 'Syracuse' },
+  { city: 'Tabiona' },
+  { city: 'Talmage' },
+  { city: 'Teasdale' },
+  { city: 'Thompson' },
+  { city: 'Tooele' },
+  { city: 'Toquerville' },
+  { city: 'Torrey' },
+  { city: 'Tremonton' },
+  { city: 'Trenton' },
+  { city: 'Tridell' },
+  { city: 'Tropic' },
+  { city: 'Vernal' },
+  { city: 'Vernon' },
+  { city: 'Veyo' },
+  { city: 'Virgin' },
+  { city: 'Wales' },
+  { city: 'Wallsburg' },
+  { city: 'Washington' },
+  { city: 'Wellington' },
+  { city: 'Wellsville' },
+  { city: 'Wendover' },
+  { city: 'West Jordan' },
+  { city: 'Whiterocks' },
+  { city: 'Willard' },
+  { city: 'Woodruff' },
+  { city: 'Woods Cross' },
+  { city: '' } ]
+[0mGET /getcity?q= [32m200 [0m12.491 ms - 5080[0m
+In getcity route
+/^""/
+[]
+[0mGET /getcity?q=%22%22 [32m200 [0m1.654 ms - 2[0m
+In getcity route
+/^P/
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+[ { city: 'Panguitch' },
+  { city: 'Paradise' },
+  { city: 'Paragonah' },
+  { city: 'Park City' },
+  { city: 'Park Valley' },
+  { city: 'Parowan' },
+  { city: 'Payson' },
+  { city: 'Peoa' },
+  { city: 'Pine Valley' },
+  { city: 'Pleasant Grove' },
+  { city: 'Plymouth' },
+  { city: 'Portage' },
+  { city: 'Price' },
+  { city: 'Providence' },
+  { city: 'Provo' } ]
+[0mGET /getcity?q=P [32m200 [0m2.026 ms - 304[0m
+[0mGET /weather.html [32m200 [0m0.721 ms - 903[0m
+[0mGET http://testp3.pospr.waw.pl/testproxy.php [33m404 [0m1.030 ms - 1196[0m
+[0mGET / [32m200 [0m0.727 ms - 3259[0m
+[0mGET / [32m200 [0m0.708 ms - 3259[0m
+[0mGET /manager/html [33m404 [0m1.032 ms - 1196[0m
+[0mGET /bbs/delete_comment.php [33m404 [0m0.993 ms - 1196[0m
+[0mGET http://testp5.mielno.lubin.pl/testproxy.php [33m404 [0m0.972 ms - 1196[0m
