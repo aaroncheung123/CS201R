@@ -1,0 +1,67 @@
+nohup: ignoring input
+Port 3000 [0mGET / [36m304 [0m5.720 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m1.354 ms - -[0m
+POST comment route
+{ Name: 'Bob', Comment: 'hello' }
+{ _id: 56e20095c25bf4c754f686d9, Comment: 'hello', Name: 'Bob' }
+{ _id: 56e20095c25bf4c754f686d9,
+  Comment: 'hello',
+  Name: 'Bob',
+  __v: 0 }
+[0mPOST /comment [32m200 [0m37.967 ms - 2[0m
+In the GET route?
+[ { __v: 0, _id: 56e1a822f44467335116c429 },
+  { __v: 0, _id: 56e1a896b7aa664e51acb959 },
+  { __v: 0,
+    Comment: 'Hi',
+    Name: 'Aaron',
+    _id: 56e1a916b7aa664e51acb95a },
+  { __v: 0,
+    Comment: 'This is cool',
+    Name: 'Bob',
+    _id: 56e1aae1b7aa664e51acb95b },
+  { __v: 0,
+    Comment: 'hi ',
+    Name: 'bob ',
+    _id: 56e1abd5cd75051d525d53a7 },
+  { __v: 0,
+    Comment: 'hello',
+    Name: 'Bob',
+    _id: 56e20095c25bf4c754f686d9 } ]
+[0mGET /comment [32m200 [0m13.468 ms - 388[0m
+[0mGET / [36m304 [0m0.384 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.290 ms - -[0m
+POST comment route
+{ Name: 'Aaron', Comment: 'GIVE ME 100 PERCENT!' }
+{ _id: 56e200c8c25bf4c754f686da,
+  Comment: 'GIVE ME 100 PERCENT!',
+  Name: 'Aaron' }
+{ _id: 56e200c8c25bf4c754f686da,
+  Comment: 'GIVE ME 100 PERCENT!',
+  Name: 'Aaron',
+  __v: 0 }
+[0mPOST /comment [32m200 [0m3.738 ms - 2[0m
+In the GET route?
+[ { __v: 0, _id: 56e1a822f44467335116c429 },
+  { __v: 0, _id: 56e1a896b7aa664e51acb959 },
+  { __v: 0,
+    Comment: 'Hi',
+    Name: 'Aaron',
+    _id: 56e1a916b7aa664e51acb95a },
+  { __v: 0,
+    Comment: 'This is cool',
+    Name: 'Bob',
+    _id: 56e1aae1b7aa664e51acb95b },
+  { __v: 0,
+    Comment: 'hi ',
+    Name: 'bob ',
+    _id: 56e1abd5cd75051d525d53a7 },
+  { __v: 0,
+    Comment: 'hello',
+    Name: 'Bob',
+    _id: 56e20095c25bf4c754f686d9 },
+  { __v: 0,
+    Comment: 'GIVE ME 100 PERCENT!',
+    Name: 'Aaron',
+    _id: 56e200c8c25bf4c754f686da } ]
+[0mGET /comment [32m200 [0m4.143 ms - 479[0m
