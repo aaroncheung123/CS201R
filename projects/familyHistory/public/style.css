@@ -3,3 +3,16 @@
 	position:relative;
 	left:50px;
 }
+.row1{
+        padding: 30px 30px 30px 30px;
+        position:absolute;
+        left:600px;
+        top:250px;
+}
+.jumbotron{
+	background-color:green;
+	color:white;
+}
+#body{
+	background-image: url("http://wallarthd.com/imagepics/light-ball-wallpaper-desktop-9817.html");
+}

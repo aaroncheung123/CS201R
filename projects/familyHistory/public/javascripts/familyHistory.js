@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("#serialize").click(function(){
-        var myobj = {first:$("#first").val(),last:$("#last").val(),birth_place:$("#birth_place").val()};
+        var myobj = {name:$("#name").val(),id:$("#id").val(),birth_place:$("#birth_place").val(),baptism:$("#baptism").val(),confirmation:$("#confirmation").val()}
         jobj = JSON.stringify(myobj);
         $("#json").text(jobj);
 
@@ -23,7 +23,7 @@ $(document).ready(function(){
         var everything = "<ul>";
         for(var familyHistory in data) {
           com = data[familyHistory];
-          everything += "<li>first: " + com.first + " -- last: " + com.last + " -- birthplace: " + com.birth_place + "</li>";
+          everything += "<li>name: " + com.name + " --id: " + com.id + " -- birthplace: " + com.birth_place + " --baptism " + com.baptism + " -- confirmation " + com.confirmation + "</li>";
         }
         everything += "</ul>";
         $("#comments").html(everything);
