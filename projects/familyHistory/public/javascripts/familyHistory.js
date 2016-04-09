@@ -2,8 +2,10 @@ $(document).ready(function(){
     $("#serialize").click(function(){
         var myobj = {id:$("#id").val()}
         jobj = JSON.stringify(myobj);
-        $("#json").text(jobj);
+        $("#json").text(jobj);	
 
+
+	var myData = new Firebase('https://fiery-inferno-1915.firebaseio.com/');
 	
        var url = "familyHistory";
         $.ajax({
