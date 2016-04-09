@@ -19,18 +19,17 @@
 <div>
 <div class="container">
   <div class="jumbotron">
-    <h1>Family History Tracker</h1>      
+    <h1>Family History Tracker</h1>
     <p>Organizer</p>
-  </div>    
+  </div>
 </div>
-
 
 <div class="row">
   <div class="col-sm-4">
   <div class="form-group">
-    <label for="usr">ID:</label>
-    <input type="text" ng-model="id" class="form-control" id="id">
-    <button id="serialize" ng-click="searchPerson()">Submit</button>
+     <label for="usr"><h2>Search Database</h2></label>
+    <input type="text" ng-model="id" class="form-control" id="id" placeholder="Enter ID">
+    <button id="serialize" class="btn btn-info"  ng-click="searchPerson()">Submit</button>
    </div>
 </div>
 </div>
@@ -89,11 +88,11 @@
 	<tr ng-repeat='f in focus'>
 	 <td>{{f.firstName}}</td>
 	 <td>{{f.lastName}}</td>
-	 <td>{{f.Baptism}}</td>
-	 <td>{{f.Confirmation}}</td>
-	 <td>{{f.Initiatory}}</td>
-	 <td>{{f.Endowment}}</td>
-	<td><button type="button" class="btn btn-info" ng-click='delete'>X</button></td>
+	 <td>{{f.baptism}}</td>
+	 <td>{{f.confirmation}}</td>
+	 <td>{{f.initiatory}}</td>
+	 <td>{{f.endowment}}</td>
+	<td><button type="button" class="btn btn-info" ng-click='delete(f)'>X</button></td>
 	</tr>
 	
     </tbody>
@@ -101,6 +100,8 @@
 </div>
 
 <img class="logo" src="http://images.clipartpanda.com/leaves-clip-art-black-and-white-green_leaf_icon_black_white_flower_shrub-999px.png" alt="Leaf Logo" style="width:304px;height:228px;">
+<img class="logo1" src="http://wolfbloodcreatestheredmoon.weebly.com/uploads/2/8/4/7/28473975/3277144_orig.jpg" alt="family tree" style="width:200px;height:150px;">
+
 
 <div class="navigation">         
 <nav class="navbar navbar-inverse">
@@ -117,6 +118,42 @@
   </div>
 </nav>
 </div>
+
+
+
+<div class='addUser'>
+<h2>Add New</h2>
+<form class="form-inline" role="form">  
+ <div class="group">
+    <label>First Name</label>
+    <input type="text" ng-model="firstName" class="form-control">
+  </div>
+ <div class="group">
+    <label>Last Name</label>
+    <input type="text" ng-model="lastName" class="form-control">
+  </div>
+ <div class="group">
+    <label>Baptism</label>
+    <input type="text" ng-model="Baptism" class="form-control">
+  </div>
+ <div class="group">
+    <label>Confirmation</label>
+    <input type="text" ng-model="Confirmation" class="form-control">
+  </div>
+ <div class="group">
+    <label>Initiatory</label>
+    <input type="text" ng-model="Initiatory" class="form-control">
+  </div>
+ <div class="group">
+    <label>Endowment</label>
+    <input type="text" ng-model="Endowment" class="form-control">
+  </div>
+  <button type="submit" class="btn btn-info" ng-click='addNewPerson()'>Submit</button>
+</form>
+</div>
+
+
+
 
 </div>
 </body>

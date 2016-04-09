@@ -40,3 +40,18 @@
         top:250px;
 	left:70px;
 }
+.addUser{
+	 width: 200px;
+   	 height: 600px;
+	position:relative;
+        left:110px;
+        top:40px;
+}
+.group{
+	width: 150px;
+}
+.logo1{
+        position:absolute;
+        left:300px;
+        top:500px;
+}

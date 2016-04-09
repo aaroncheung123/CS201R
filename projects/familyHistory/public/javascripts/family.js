@@ -7,12 +7,21 @@ var myApp = angular.module("family", ["firebase"]);
 	$scope.focus = $firebaseArray(foc);
 
 	$scope.addNewPerson = function() {
-		$scope.dummy.$add({ id: $scope.id2 , firstName: $scope.firstName, lastName: $scope.lastName , baptism: $scope.baptism , confirmation : $scope.confirmation , initiatory : $scope.initiatory , endowment : $scope.endowment}).then(function(ref){
+		$scope.focus.$add({firstName: $scope.firstName, lastName: $scope.lastName , baptism: $scope.Baptism , confirmation : $scope.Confirmation , initiatory : $scope.Initiatory , endowment : $scope.Endowment}).then(function(ref){
 	});
+	$scope.firstName = null;
+	$scope.lastName = null;
+	$scope.Baptism = null;
+	$scope.Confirmation = null;
+	$scope.Initiatory = null;
+	$scope.Endowment = null;
+
+
 	};
 
-	$scope.addNewPerson = function() {
-		$scope.dummy.$delete({ id: $scope.id2 , firstName: $scope.firstName, lastName: $scope.lastName , baptism: $scope.baptism , confirmation : $scope.confirmation , initiatory : $scope.initiatory , endowment : $scope.endowment}).then(function(ref){
+	$scope.delete = function(key) {
+		console.log(key);
+		$scope.focus.$remove($scope.focus.$getRecord(key.$id)).then(function(ref){console.log("Deleted object at " + key);
 	});
 	};
 
@@ -27,6 +36,7 @@ var myApp = angular.module("family", ["firebase"]);
 		{$scope.focus.$add(searched);}
 		else console.log("not found");
 		});
+
 	};
 	}
 ]);
